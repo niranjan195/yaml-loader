@@ -1,0 +1,10 @@
+simple_yaml_1: 42
+simple_yaml_2: 'hello'
+simple_yaml_3:
+  simple_yaml_3_1: 'hello2'
+  simple_yaml_3_2: 'ccccc'
+simple_yaml_4:
+  simple_yaml_4_1:
+    include: !import output.yaml
+    include1: !import simple_yaml1.yaml
+simple_yaml_5: "eeees"

@@ -1,0 +1,23 @@
+simple_yaml_1: 42
+simple_yaml_2: hello
+simple_yaml_3:
+  simple_yaml_3_1: hello2
+  simple_yaml_3_2: ccccc
+simple_yaml_4:
+  simple_yaml_4_1:
+    include:
+      output_1:
+      - output_1_data_1
+      - output_1_data_2
+      - output_1_data_3
+      - output_1_data_4
+      - output_1_data_5
+    include1:
+      simple_yaml1_1:
+      - simple_yaml1_1_data1
+      - simple_yaml1_1_data2
+      - simple_yaml1_1_data3
+      - simple_yaml1_1_data4
+      - simple_yaml1_1_data5
+      simple_yaml1_2: simple_yaml1_2_data1
+simple_yaml_5: eeees

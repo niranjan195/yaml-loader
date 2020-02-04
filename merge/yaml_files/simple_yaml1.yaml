@@ -1,0 +1,7 @@
+simple_yaml1_1:
+  - simple_yaml1_1_data1
+  - simple_yaml1_1_data2
+  - simple_yaml1_1_data3
+  - simple_yaml1_1_data4
+  - simple_yaml1_1_data5
+simple_yaml1_2: "simple_yaml1_2_data1"
